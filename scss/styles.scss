@@ -241,10 +241,11 @@ footer {
 
 .copyright {
     padding-top: 20px;
+    position: relative;
 
     p {
         margin: 0;
-        color: $text;
+        color: #a0cfee;
     }
 }
 
@@ -268,7 +269,7 @@ footer {
 }
 
 .social {
-    text-align: right;
+    text-align: center;
 
     ul {
         margin: 5px 0 0 0;
@@ -283,7 +284,7 @@ footer {
 
     a {
         display: block;
-        color: $text;
+        color: #fff;
         padding: 10px;
 
         &:hover {
@@ -349,7 +350,7 @@ footer {
     position: relative;
     height: 100vh;
     min-height: 500px;
-    max-height: 1080px;
+    max-height: 1440px;
     background: url(../images/lead-bg.jpg);
     background-size: cover;
     padding: 15px;
@@ -408,20 +409,10 @@ footer {
     color: #fff;
 
     span {
-        cursor: pointer;
         display: block;
         margin: 0 auto;
-        width: 35px;
         height: 35px;
-        border-radius: 50%;
-        border: 3px solid lighten($base-color, 25%);
         text-align:center;
-    }
-
-    i {
-        animation: pulsate 1.5s ease;
-        animation-iteration-count: infinite;
-        padding-top: 5px;;
     }
 }
 
